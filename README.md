@@ -5,10 +5,10 @@ JavaScript Top Ten Tweet Intervalometer (Weekend Assignment).  This was my first
 ## Install
 
 1. Install node dependencies
-```sh
-npm install -d
-node topten.js
 ```
+npm install -d
+```
+
 2. Add your consumer keys into the file
 ```javascript
 var twitter = new Twitter({
@@ -17,6 +17,11 @@ var twitter = new Twitter({
 	access_token_key: '<--your access token key-->',
 	access_token_secret: '<--your access token secret-->'
 });
+```
+
+3. Run The application
+```sh
+node topten.js
 ```
 
 ## Dependencies
